@@ -1,0 +1,16 @@
+{
+  "name": "e2e-agent-sdk",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx e2e_agent.ts",
+    "simple": "npx tsx simple_agent.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "latest"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}

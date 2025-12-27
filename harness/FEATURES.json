@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "features": [
+    {
+      "id": "F-001",
+      "title": "factorial 関数",
+      "status": "done",
+      "acceptance_criteria": [
+        "正の整数 n に対して n! を返す",
+        "n = 0 に対して 1 を返す",
+        "負の整数に対してエラーをスロー",
+        "小数に対してエラーをスロー"
+      ],
+      "tasks": [
+        "src/calculator.ts に factorial 関数を追加",
+        "tests/calculator.test.ts にテストを追加",
+        "全テスト Green を確認"
+      ],
+      "tests": [
+        "factorial(0) = 1",
+        "factorial(1) = 1",
+        "factorial(5) = 120",
+        "factorial(10) = 3628800",
+        "factorial(-1) throws Error",
+        "factorial(3.5) throws Error"
+      ],
+      "files": ["src/calculator.ts", "tests/calculator.test.ts"],
+      "notes": "2025-12-28 完了"
+    }
+  ]
+}

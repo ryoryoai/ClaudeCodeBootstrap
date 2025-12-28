@@ -3,7 +3,7 @@ name: req-analyst
 description: MUST BE USED proactively when a new spec/REQ.md is provided or scope needs breakdown. Produces an implementation plan and a test plan.
 tools: Read, Glob, Grep, Edit
 model: inherit
-skills: req-to-plan, test-strategy
+skills: req-to-plan, test-strategy, spec-version-selector
 permissionMode: acceptEdits
 ---
 

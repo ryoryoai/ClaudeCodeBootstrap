@@ -47,17 +47,17 @@ description: Select optimal spec/API/library versions from candidates. Use when 
 # Do not edit manually - managed by spec-version-selector
 
 locked_versions:
-  - name: "<dependency-name>"
-    version: "<selected-version>"
-    type: "api|library|runtime|framework"
-    reason: "<brief selection reason>"
+  - name: '<dependency-name>'
+    version: '<selected-version>'
+    type: 'api|library|runtime|framework'
+    reason: '<brief selection reason>'
     alternatives_considered:
-      - version: "<alt-version>"
-        rejected_because: "<reason>"
+      - version: '<alt-version>'
+        rejected_because: '<reason>'
 
 metadata:
-  selector_run: "YYYY-MM-DD"
-  next_review: "YYYY-MM-DD"  # +6 months or at next major release
+  selector_run: 'YYYY-MM-DD'
+  next_review: 'YYYY-MM-DD' # +6 months or at next major release
 ```
 
 ### 2. docs/SPEC_SELECTION.md

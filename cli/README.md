@@ -1,30 +1,18 @@
-# claude-bootstrap-cli
+# create-ccb
 
-CLI to install Claude Code Bootstrap configuration.
-
-## Installation
-
-```bash
-npm install -g claude-bootstrap-cli
-```
+Claude Code Bootstrap - Setup your Claude Code configuration.
 
 ## Usage
 
 ```bash
-# Initialize in current directory
-claude-bootstrap init
+npx create-ccb
+```
 
-# Force overwrite existing
-claude-bootstrap init --force
+### Options
 
-# Install specific version
-claude-bootstrap init --version 1.0.0
-
-# Check for updates
-claude-bootstrap update
-
-# List available versions
-claude-bootstrap versions
+```bash
+npx create-ccb --force    # Overwrite existing files
+npx create-ccb --ver 1.0.0  # Install specific version
 ```
 
 ## What gets installed

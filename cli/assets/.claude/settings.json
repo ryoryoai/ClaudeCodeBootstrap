@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "permissions": {
+    "allow": [
+      "Bash(python -m pytest:*)",
+      "Bash(make:*)",
+      "Bash(git status)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)"
+    ],
+    "deny": []
+  },
+  "hooks": {
+    "pre_tool_use": [
+      {
+        "matcher": "Bash",
+        "command": "python hooks/pre_tool_use.py"
+      }
+    ],
+    "post_tool_use": [
+      {
+        "matcher": "Bash",
+        "command": "python hooks/post_tool_use.py"
+      }
+    ]
+  },
+  "env": {}
+}

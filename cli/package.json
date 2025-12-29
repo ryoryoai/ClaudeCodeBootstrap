@@ -1,0 +1,33 @@
+{
+  "name": "claude-bootstrap-cli",
+  "version": "1.0.0",
+  "description": "CLI to install Claude Code Bootstrap configuration",
+  "type": "module",
+  "bin": {
+    "claude-bootstrap": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "bun build src/index.ts --outdir dist --target node",
+    "dev": "bun run src/index.ts"
+  },
+  "files": [
+    "dist",
+    "assets"
+  ],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "bootstrap",
+    "cli"
+  ],
+  "author": "ryoryoai",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

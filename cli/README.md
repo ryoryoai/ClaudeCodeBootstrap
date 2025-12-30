@@ -1,4 +1,4 @@
-# create-ccb
+# create-cco
 
 [English](#english) | [日本語](#japanese)
 
@@ -8,19 +8,19 @@
 
 ## English
 
-Claude Code Bootstrap - Instantly setup your Claude Code configuration with best practices.
+ClaudeCodeOrchestrator (CCOrch) - Instantly setup your Claude Code configuration with best practices.
 
 ### Installation
 
 ```bash
-npx create-ccb
+npx create-cco
 ```
 
 ### Options
 
 ```bash
-npx create-ccb          # Install to current directory
-npx create-ccb --force  # Overwrite existing .claude directory
+npx create-cco          # Install to current directory
+npx create-cco --force  # Overwrite existing .claude directory
 ```
 
 ### What's Included
@@ -74,13 +74,13 @@ npx create-ccb --force  # Overwrite existing .claude directory
 ### Update
 
 ```bash
-npx create-ccb@latest --force
+npx create-cco@latest --force
 ```
 
 ### Links
 
-- [npm](https://www.npmjs.com/package/create-ccb)
-- [GitHub](https://github.com/ryoryoai/ClaudeCodeBootstrap)
+- [npm](https://www.npmjs.com/package/create-cco)
+- [GitHub](https://github.com/ryoryoai/ClaudeCodeOrch)
 
 ---
 
@@ -88,19 +88,19 @@ npx create-ccb@latest --force
 
 ## 日本語
 
-Claude Code Bootstrap - Claude Code の設定をベストプラクティスで即座にセットアップ。
+ClaudeCodeOrchestrator（CCOrch） - Claude Code の設定をベストプラクティスで即座にセットアップ。
 
 ### インストール
 
 ```bash
-npx create-ccb
+npx create-cco
 ```
 
 ### オプション
 
 ```bash
-npx create-ccb          # カレントディレクトリにインストール
-npx create-ccb --force  # 既存の .claude ディレクトリを上書き
+npx create-cco          # カレントディレクトリにインストール
+npx create-cco --force  # 既存の .claude ディレクトリを上書き
 ```
 
 ### 含まれるもの
@@ -154,13 +154,13 @@ npx create-ccb --force  # 既存の .claude ディレクトリを上書き
 ### 更新
 
 ```bash
-npx create-ccb@latest --force
+npx create-cco@latest --force
 ```
 
 ### リンク
 
-- [npm](https://www.npmjs.com/package/create-ccb)
-- [GitHub](https://github.com/ryoryoai/ClaudeCodeBootstrap)
+- [npm](https://www.npmjs.com/package/create-cco)
+- [GitHub](https://github.com/ryoryoai/ClaudeCodeOrch)
 
 ---
 

@@ -15,7 +15,7 @@ export async function init(options: InitOptions) {
   const targetDir = process.cwd();
   const claudeDir = path.join(targetDir, ".claude");
 
-  console.log(chalk.blue("Claude Code Bootstrap"));
+  console.log(chalk.blue("ClaudeCodeOrchestrator (CCOrch)"));
   console.log();
 
   // Check if .claude already exists
@@ -45,7 +45,7 @@ export async function init(options: InitOptions) {
     console.log(chalk.green("✓ .claude/commands/"));
     console.log(chalk.green("✓ .claude/hooks/"));
     console.log();
-    console.log(chalk.green("✓ Claude Code Bootstrap installed successfully!"));
+    console.log(chalk.green("✓ ClaudeCodeOrchestrator installed successfully!"));
     console.log();
     console.log(chalk.gray("Next steps:"));
     console.log(chalk.gray("  1. Open the project in VS Code / Cursor"));

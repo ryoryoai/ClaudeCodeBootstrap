@@ -5,7 +5,7 @@ set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
-DIST_NAME="ClaudeCodeBootstrap"
+DIST_NAME="ClaudeCodeOrch"
 OUTPUT_DIR="${PROJECT_ROOT}/dist"
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
 ZIP_FILE="${OUTPUT_DIR}/${DIST_NAME}_${TIMESTAMP}.zip"

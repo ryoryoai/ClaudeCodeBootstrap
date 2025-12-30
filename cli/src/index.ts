@@ -5,9 +5,9 @@ import { init } from "./commands/init.js";
 const program = new Command();
 
 program
-  .name("create-ccb")
-  .description("Claude Code Bootstrap - Setup your Claude Code configuration")
-  .version("1.0.0");
+  .name("create-cco")
+  .description("ClaudeCodeOrchestrator - Setup your Claude Code configuration")
+  .version("1.0.2");
 
 program
   .option("-f, --force", "Overwrite existing files")

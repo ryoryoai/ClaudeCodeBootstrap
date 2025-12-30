@@ -2,7 +2,7 @@
 
 ## 概要
 
-このリポジトリは Claude Code を使った AI 駆動開発の「配布用 Bootstrap」です。
+このリポジトリは Claude Code を使った AI 駆動開発の「配布用 Orchestrator」です。
 検証済みの skills / agents / hooks / harness のみを含みます。
 
 ## 運用フロー
@@ -12,7 +12,7 @@
    ↓
 [回帰テスト実行]
    ↓
-[検証済みなら Bootstrap に PR]
+[検証済みなら ClaudeCodeOrch に PR]
    ↓
 [レビュー → マージ（手動）]
    ↓
@@ -23,8 +23,8 @@
 
 ```bash
 # 1. リポジトリをクローン
-git clone https://github.com/your-org/ClaudeCodeBootstrap.git
-cd ClaudeCodeBootstrap
+git clone https://github.com/ryoryoai/ClaudeCodeOrch.git
+cd ClaudeCodeOrch
 
 # 2. 依存関係をインストール
 pip install -r requirements.txt -r requirements-dev.txt
@@ -44,7 +44,7 @@ claude --config .claude/settings.json
 
 ## 顧客案件での使用
 
-顧客案件では Bootstrap の最新版追従は **禁止** です。
+顧客案件では ClaudeCodeOrch の最新版追従は **禁止** です。
 
 1. 案件開始時に特定の tag をチェックアウト
 2. 案件期間中はそのバージョンを固定

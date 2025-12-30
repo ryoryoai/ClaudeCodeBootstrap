@@ -2,7 +2,7 @@
 
 ## Claude Code バージョン互換性
 
-| Bootstrap Version | Claude Code Version | Status |
+| CCOrch Version | Claude Code Version | Status |
 |-------------------|---------------------|--------|
 | v1.0.x            | 1.0.x               | Supported |
 

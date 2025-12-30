@@ -1,4 +1,8 @@
-# Claude Code Bootstrap
+# ClaudeCodeOrch
+
+**ClaudeCodeOrchestrator** - 要件定義だけで実装・テスト・品質チェックまで一気通貫で完了させるClaude Code統合フレームワーク
+
+Agent, Harness, Hooks, Skillsをオーケストレーションし、人間は要件を書くだけ。
 
 [English](#english) | [日本語](#japanese)
 
@@ -8,12 +12,12 @@
 
 ## English
 
-A production-ready bootstrap for AI-driven development with Claude Code. Includes skills, agents, commands, and hooks.
+A production-ready orchestrator for AI-driven development with Claude Code. Includes skills, agents, commands, and hooks.
 
 ## Quick Start
 
 ```bash
-npx create-ccb
+npx create-cco
 ```
 
 That's it! Your project now has a complete Claude Code configuration.
@@ -33,15 +37,15 @@ That's it! Your project now has a complete Claude Code configuration.
 # Go to your project
 cd /path/to/your/project
 
-# Install Claude Code Bootstrap
-npx create-ccb
+# Install ClaudeCodeOrch
+npx create-cco
 ```
 
 ### Options
 
 ```bash
-npx create-ccb          # Install to current directory
-npx create-ccb --force  # Overwrite existing .claude directory
+npx create-cco          # Install to current directory
+npx create-cco --force  # Overwrite existing .claude directory
 ```
 
 ### Manual Installation
@@ -49,8 +53,8 @@ npx create-ccb --force  # Overwrite existing .claude directory
 Clone this repository and copy the `.claude` folder to your project:
 
 ```bash
-git clone https://github.com/ryoryoai/ClaudeCodeBootstrap.git
-cp -r ClaudeCodeBootstrap/.claude /path/to/your/project/
+git clone https://github.com/ryoryoai/ClaudeCodeOrch.git
+cp -r ClaudeCodeOrch/.claude /path/to/your/project/
 ```
 
 ## What's Included
@@ -175,15 +179,15 @@ npx create-ccb
 # プロジェクトに移動
 cd /path/to/your/project
 
-# Claude Code Bootstrap をインストール
-npx create-ccb
+# ClaudeCodeOrch をインストール
+npx create-cco
 ```
 
 ### オプション
 
 ```bash
-npx create-ccb          # カレントディレクトリにインストール
-npx create-ccb --force  # 既存の .claude ディレクトリを上書き
+npx create-cco          # カレントディレクトリにインストール
+npx create-cco --force  # 既存の .claude ディレクトリを上書き
 ```
 
 ### 手動インストール
@@ -191,8 +195,8 @@ npx create-ccb --force  # 既存の .claude ディレクトリを上書き
 リポジトリをクローンして `.claude` フォルダをプロジェクトにコピー：
 
 ```bash
-git clone https://github.com/ryoryoai/ClaudeCodeBootstrap.git
-cp -r ClaudeCodeBootstrap/.claude /path/to/your/project/
+git clone https://github.com/ryoryoai/ClaudeCodeOrch.git
+cp -r ClaudeCodeOrch/.claude /path/to/your/project/
 ```
 
 ## 含まれるもの

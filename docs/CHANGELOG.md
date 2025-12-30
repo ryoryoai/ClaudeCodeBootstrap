@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Initial Bootstrap structure
+- Initial ClaudeCodeOrchestrator structure
 - Sample skills: `code-review`, `git-commit`
 - Sample agent: `explorer`
 - Hooks: `pre_tool_use`, `post_tool_use`
